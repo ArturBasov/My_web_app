@@ -4,7 +4,18 @@ Used – Java 8, Maven, JPA, Hibernate, Validator, MVC, Security (bcrypt), TomCa
 
 **How to use?**
 
-Check MyConfig – DB url, DB username, DB password. Run application.
+Check MyConfig – DB url, DB username, DB password.
+Install and configure Tomcat.
+Run application (Shift+F10).
+
+DB table fields:
+
+    id (BIGINT, PRIMARY KEY, NOT NULL)
+    name (VARCHAR(15))
+    surname (VARCHAR(25))
+    department (VARCHAR(20))
+    salary (INT)
+    phone_number (VARCHAR(20))
 
 In browser:
 
